@@ -133,4 +133,93 @@ a {
 	justify-content: center;
 	flex-direction: column;
 }
+.slick-dots{
+	margin-bottom: 150px;
+}
+.slick-next{
+	background: #000;
+}
+.slider-slicker{
+	position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 15%;
+}
+.central{
+	width: 1170px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	margin: 40px 0;
+}
+.central-text{
+	background:url(../img/central-img.png);
+	width: 626px;
+	height: 55px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	font-family: "Roboto Condensed";
+	font-size: 24px;
+	font-weight: 300;
+	/* Text style for "Lorem ipsu" */
+	letter-spacing: 0.48px;
+}
+.background-about_company{
+	background: url(../img/about_company-img.png) no-repeat center;
+	height: 805px;
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+}
+.about_company{
+	width: 1170px;
+	display:flex;
+
+}
+.about_company-text{
+	width: 50%;
+}
+.about_company_text_main{
+	color: #ffffff;
+	font-family: "Roboto Condensed";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	padding-top: 40px;
+	padding-right: 30px;
+}
+.action{
+	display:flex;
+	margin-top:53px;
+}
+.button{
+	width: 170px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: #ebce73;
+	color: #282828;
+	font-family: "Roboto Condensed";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	border:none;
+}
+.button-o{
+	color: #ffffff;
+	font-family: "Roboto Condensed";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	width: 170px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: #cf5413;
+	margin-left: 50px;
+	border:none;
+}
 /*# sourceMappingURL=style.css.map */
