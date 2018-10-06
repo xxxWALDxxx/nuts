@@ -222,4 +222,26 @@ a {
 	margin-left: 50px;
 	border:none;
 }
+.footer-background{
+	width: 100%;
+	background-color: #282828;
+}
+.footer{
+	width: 1170px;
+	display:flex;
+	justify-content: space-around;
+}
+.footer-info{
+	height: 75px;
+	display: flex;
+	align-items: center;
+}
+.footer-info-text{
+	padding-left: 4px;
+	color: #ffffff;
+	font-family: "Roboto Condensed";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+}
 /*# sourceMappingURL=style.css.map */

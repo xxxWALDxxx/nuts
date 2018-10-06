@@ -3,8 +3,9 @@ $(document).ready(function(){
   dots: true,
   infinite: true,
   speed: 500,
-  prevArrow: '<button class ="slider-slicker">epkpewkf</button>',
+  prevArrow: '<button type="button" class="slick-prev">Previous</button>',
   fade: true,
+  useCSS: true,
   cssEase: 'linear'
   });
 });
