@@ -1,15 +1,12 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
 }
-
 a {
   text-decoration: none;
 }
-
 .header {
   height: 60px;
 }
@@ -134,7 +131,7 @@ a {
 	flex-direction: column;
 }
 .slick-dots{
-	margin-bottom: 150px;
+	margin-bottom: 62px;
 }
 .slick-next{
 	background: #000;
@@ -243,5 +240,21 @@ a {
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 24px;
+}
+.slick-prev {
+    left: 0;
+}
+.slick-dots li button:before {
+	color:#fff;
+	opacity: 1;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity:1;
+    color: #96af2c;
+}
+.slick-dotted.slick-slider
+{
+    margin-bottom: 0px;
 }
 /*# sourceMappingURL=style.css.map */
