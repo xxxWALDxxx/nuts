@@ -5,7 +5,15 @@
 	<title>nuts</title>
 	<link rel="stylesheet" type="text/css" href="slick-master/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick-master/slick/slick-theme.css"/>
-	<link rel="stylesheet" href="css/style.css">
+<!-- novoe -->
+<link rel="stylesheet" href="css/chosen.css">
+<link rel="stylesheet" href="css/ImageSelect.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<script src="js/chosen.jquery.js"></script>
+	<script src="js/ImageSelect.jquery.js"></script>
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
 	<!-- ВСЕГДА ПОСЛЕ ВСЕЙ ХУЙНИ ПОДКЛЮЧАТЬ СВОИ СТИЛИ, ДЕБИЛ ЕБАНЫЙ -->
 </head>
 <body>
@@ -39,20 +47,21 @@
 				</div>
 				<div class="header-nav-contacts-telephone">
 					<div class="header-nav-contacts-telephone-lang">
-						<p>RU</p>
-						<img src="img/russian.png" alt="">
-					</div>
-					<div class="header-nav-contacts-telephone-lang">
-						<p>AZ</p>
-						<img src="img/azerabaijan.png" alt="">
-						<p>	<button class="spisok">&#8744;</button></p>
+						<div class="container">
+						<select name=""class="my-select" id="">
+							<option selected="selected" data-img-src="img/azerabaijan.png"value="">element</option>
+							<option data-img-src="img/france.png"value=""><p><img src="img/footer-telephone.png" alt=""></p></option>
+							<option data-img-src="img/france.png"value="">element</option>
+							<option data-img-src="img/united-kingdom(1).png"value="">element</option>
+						</select>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="hide-language">
 			<div class="language">
-				<div class="language-block">
+				<select class="language-block">
 					<div class="language-block-items">
 						<p>PL</p>
 						<img src="img/poland.png" alt="">
@@ -73,7 +82,7 @@
 						<img src="img/turkey.png" alt="">
 					</div>
 					<!-- /.language-block-items -->
-				</div>
+				</select>
 			</div>
 		<!-- /.language-block -->
 		</div>
@@ -90,24 +99,10 @@
 			</div>
 		</div>
 		<div class="item">
-			<div class="jojo">
-				<div class="jjj">
-					<img src="img/main-logo.png" alt="">
-				</div>
-				<div class="main-text">
-						Качество никогда не бывает совпадением!
-				</div>
-			</div>
+
 		</div>
 		<div class="item">
-			<div class="jojo">
-				<div class="jjj">
-					<img src="img/main-logo.png" alt="">
-				</div>
-				<div class="main-text">
-						Качество никогда не бывает совпадением!
-				</div>
-			</div>
+
 		</div>
 	</div>
 	<div class="background-about_company">
@@ -152,7 +147,9 @@
 			</div>
 		</div>
 	</footer>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script>
+		$(".my-select").chosen();
+	</script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="slick-master/slick/slick.min.js"></script>
 	<script type="text/javascript" src="js/js.js"></script>
