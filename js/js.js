@@ -23,6 +23,20 @@ function formatOptions (state) {
   );
   return $state;
 }
+$(document).ready(function(){
+  var link=$('.menu-link');
+  var link_active=$('.menu-link-active');
+  var menu=$('.menu');
+  var nav_link=$('.menu a');
+  link.click(function(){
+    link.toggleClass('menu-link-active');
+    menu.toggleClass('menu-active');
+  });
+  nav_link.click(function(){
+    link.toggleClass('menu-link-active');
+    menu.toggleClass('menu-active');
+  });
+});
 // $(document).ready(function(){
 //       $('.spisok').on("click",function(){
 //         $('.hide-language').show();
@@ -40,3 +54,9 @@ function formatOptions (state) {
 //         });
 //       });
 //     });
+
+$(".tab_item").not(":first").hide();
+$(".wrapper_tab .tab").click(function() {
+    $(".list_services .tab").removeClass("active").eq($(this).index()).addClass("active");
+    $(".tab_item").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("active");

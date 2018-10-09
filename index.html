@@ -1,157 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>nuts</title>
-	<link rel="stylesheet" type="text/css" href="slick-master/slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="slick-master/slick/slick-theme.css"/>
-<!-- novoe -->
-<link rel="stylesheet" href="css/chosen.css">
-<link rel="stylesheet" href="css/ImageSelect.css">
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-	<script src="js/chosen.jquery.js"></script>
-	<script src="js/ImageSelect.jquery.js"></script>
-	<script src="js/jquery-1.11.0.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<link rel="stylesheet" href="css/style.css">
-	<!-- ВСЕГДА ПОСЛЕ ВСЕЙ ХУЙНИ ПОДКЛЮЧАТЬ СВОИ СТИЛИ, ДЕБИЛ ЕБАНЫЙ -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nuts</title>
+    <link rel="stylesheet" type="text/css" href="slick-master/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick-master/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ВСЕГДА ПОСЛЕ ВСЕЙ ХУЙНИ ПОДКЛЮЧАТЬ СВОИ СТИЛИ, ДЕБИЛ ЕБАНЫЙ -->
 </head>
+
 <body>
-	<header class="header">
-		<div class="header-nav">
-			<div class="header-nav-kaslar">
-				<img src="img/logo.png" alt="">
+    <header class="header">
+        <div class="header-nav">
+            <div class="header-nav-kaslar">
+                <img src="img/logo.png" alt="">
 			</div>
-			<div class="header-nav-block">	
-				<a href="#">Главная</a>
-			</div>
-			<div class="header-nav-block">
-				<a href="#">О компании</a>
-			</div>
-			<div class="header-nav-block">
-				<a href="#">Производство</a>
-			</div>
-			<div class="header-nav-block">
-				<a href="#">Продукты</a>
-			</div>
-			<div class="header-nav-block">
-				<a href="#">Галерея</a>
-			</div>
-			<div class="header-nav-block">
-				<a href="#">Контакты</a>
-			</div>
-			<div class="header-nav-contacts">
-				<div class="header-nav-contacts-number">
-					<img src="img/telephone.png" alt="">
+                <div class="tab-none">
+                    <div class="header-nav-block">
+                        <a href="#">Главная</a>
+                    </div>
+                    <div class="header-nav-block">
+                        <a href="#">О компании</a>
+                    </div>
+                    <div class="header-nav-block">
+                        <a href="#">Производство</a>
+                    </div>
+                    <div class="header-nav-block">
+                        <a href="#">Продукты</a>
+                    </div>
+                    <div class="header-nav-block">
+                        <a href="#">Галерея</a>
+                    </div>
+                    <div class="header-nav-block">
+                        <a href="#">Контакты</a>
+                    </div>
+                </div>
+                <div class="header-nav-contacts">
+                    <div class="header-nav-contacts-number">
+                        <img src="img/telephone.png" alt="">
 					+994 2422 40187
 				</div>
-				<div class="header-nav-contacts-telephone">
-					<div class="header-nav-contacts-telephone-lang">
-						<div class="container">
-						<select name=""class="my-select" id="">
-							<option selected="selected" data-img-src="img/azerabaijan.png"value="">element</option>
-							<option data-img-src="img/france.png"value=""><p><img src="img/footer-telephone.png" alt=""></p></option>
-							<option data-img-src="img/france.png"value="">element</option>
-							<option data-img-src="img/united-kingdom(1).png"value="">element</option>
-						</select>
-						</div>
-					</div>
+                       <div class="wrapper_tab">
+                           <div class="list_services tabs">
+                               <span class="tab active"><p>RU</p></span>
+                           </div>
+                           <div class="tab_content">
+                               <div class="tab_item">
+                               	<p>AZ</p>
+                               	<img src="img/azerabaijan.png" alt="">
+                               </div>
+                               <div class="tab_item">
+                               	<p>UA</p>
+                               	<img src="img/france.png" alt="">
+                               </div>
+                               <div class="tab_item">
+                               	<p>KZ</p>
+                               	<img src="img/russian.png" alt="">
+                               </div>
+                               <div class="tab_item">
+                               	<p>LD</p>
+                               	<img src="img/turkey.png" alt="">
+                               </div>
+                           </div>
+                       </div>
+                    </div>
+                    <div class="burger">
+                        <a class="menu-link menu-active "href="#menu">
+					  <span></span>
+					</a>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#one">Главная</a></li>
+                                <li><a href="#two">О компании</a></li>
+                                <li><a href="#three">Производство</a></li>
+                                <li><a href="#four">Продукты</a></li>
+                                <li><a href="#five">Галерея</a></li>
+                                <li><a href="#five">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    </header>
+    <div class="slider">
+        <div class="item">
+            <div class="item-column">
+                <div class="background-main-logo">
+                    <img src="img/main-logo.png" alt="">
 				</div>
-			</div>
-		</div>
-		<div class="hide-language">
-			<div class="language">
-				<select class="language-block">
-					<div class="language-block-items">
-						<p>PL</p>
-						<img src="img/poland.png" alt="">
-					</div>
-					<!-- /.language-block-items -->
-					<div class="language-block-items">
-						<p>EN</p>
-						<img src="img/united-kingdom(1).png" alt="">
-					</div>
-					<!-- /.language-block-items -->
-					<div class="language-block-items">
-						<p>FR</p>
-						<img src="img/france.png" alt="">
-					</div>
-					<!-- /.language-block-items -->
-					<div class="language-block-items">
-						<p>TR</p>
-						<img src="img/turkey.png" alt="">
-					</div>
-					<!-- /.language-block-items -->
-				</select>
-			</div>
-		<!-- /.language-block -->
-		</div>
-	</header>
-	<div class="slider">
-		<div class="item">
-			<div class="jojo">
-				<div class="jjj">
-					<img src="img/main-logo.png" alt="">
-				</div>
-				<div class="main-text">
-						Качество никогда не бывает совпадением!
-				</div>
-			</div>
-		</div>
-		<div class="item">
-
-		</div>
-		<div class="item">
-
-		</div>
-	</div>
-	<div class="background-about_company">
-		<div class="central">
-			<div class="central-text">
-				Lorem ipsum dolor sit amet, consectetur adipisicing
-			</div>
-			<!-- /.central-text -->
-		</div>
-		<!-- /.central -->
-		<div class="about_company">
-			<div class="about_company-text">
-				<div class="about_company_text_main">Наша компания была основана в 1989 году под названием «Yanvar- 85 veteranlar kooperativi» («Кооператив ветеранов январь-85»).<br>
-				В 2012-году кооператив переименовался на LTD «Kaslar» (ООО «Каслар»). Уже 25 лет мы производим и экспортируем высококачественный фундук.
-				<br><br>
-				С момента основания, производство качественного фундука – это наша главная цель. ООО «Каслар» экспортирует натуральные и обработанные ядра орехов фундука, в жаренном и дроблёном виде крупным потребителям России, Украины, Италии и других европейских стран.
-				<br><br>
-				Наша основная производственная база находится в г. Закатале, где выращивается самый качественный фундук в Азербайджане. Здесь же находится наша фабрика с производственной площадью 2400 кв.м, производительной мощностью 120-150 тонн готового продукта в месяц. Благодаря современному оборудованию наша фабрика производит самый качественный и экологически чистый продукт в регионе.
-				<br><br>
-				Компания так же имеет совместное производство в Грузии и Турции. ООО «Каслар» экспортирует высококачественный продукт из Азербайджана, Турции и Грузи, учитывая желание клиента.
-				</div>
-				<div class="action">
-					<button class="button">О компании</button>
-					<button class="button-o">Продукты</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<footer class="footer-background">
-		<div class="footer">
-			<div class="footer-info">
-				<div class="footer-info-img"><img src="img/footer-geolocation.png" alt=""></div>
-				<div class="footer-info-text">Göyəm k., Zaqatala, Azərbaycan</div>
-			</div>
-			<div class="footer-info">
-				<div class="footer-info-img"><img src="img/footer-telephone.png" alt=""></div>
-				<div class="footer-info-text">+994 2422 40187</div>
-			</div>
-			<div class="footer-info">
-				<div class="footer-info-img"><img src="img/footer-message.png" alt=""></div>
-				<div class="footer-info-text">info@kaslarnut.com</div>
-			</div>
-		</div>
-	</footer>
-	<script>
-		$(".my-select").chosen();
-	</script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script type="text/javascript" src="slick-master/slick/slick.min.js"></script>
-	<script type="text/javascript" src="js/js.js"></script>
+                    <div class="main-text">
+                        Качество никогда не бывает совпадением!
+                    </div>
+                </div>
+            </div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+        <div class="background-about_company">
+            <div class="central">
+                <div class="central-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                </div>
+                <!-- /.central-text -->
+            </div>
+            <!-- /.central -->
+            <div class="about_company">
+                <div class="about_company-text">
+                    <div class="about_company_text_main">Наша компания была основана в 1989 году под названием «Yanvar- 85 veteranlar kooperativi» («Кооператив ветеранов январь-85»).<br>
+                        В 2012-году кооператив переименовался на LTD «Kaslar» (ООО «Каслар»). Уже 25 лет мы производим и экспортируем высококачественный фундук.
+                        <br><br>
+                        С момента основания, производство качественного фундука – это наша главная цель. ООО «Каслар» экспортирует натуральные и обработанные ядра орехов фундука, в жаренном и дроблёном виде крупным потребителям России, Украины, Италии и других европейских стран.
+                        <br><br>
+                        Наша основная производственная база находится в г. Закатале, где выращивается самый качественный фундук в Азербайджане. Здесь же находится наша фабрика с производственной площадью 2400 кв.м, производительной мощностью 120-150 тонн готового продукта в месяц. Благодаря современному оборудованию наша фабрика производит самый качественный и экологически чистый продукт в регионе.
+                        <br><br>
+                        Компания так же имеет совместное производство в Грузии и Турции. ООО «Каслар» экспортирует высококачественный продукт из Азербайджана, Турции и Грузи, учитывая желание клиента.
+                    </div>
+                    <div class="action">
+                        <button class="button">О компании</button>
+                        <button class="button-o">Продукты</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer-background">
+            <div class="footer">
+                <div class="footer-info">
+                    <div class="footer-info-img"><img src="img/footer-geolocation.png" alt=""></div>
+                        <div class="footer-info-text">Göyəm k., Zaqatala, Azərbaycan</div>
+                    </div>
+                    <div class="footer-info">
+                        <div class="footer-info-img"><img src="img/footer-telephone.png" alt=""></div>
+                            <div class="footer-info-text">+994 2422 40187</div>
+                        </div>
+                        <div class="footer-info">
+                            <div class="footer-info-img"><img src="img/footer-message.png" alt=""></div>
+                                <div class="footer-info-text">info@kaslarnut.com</div>
+                            </div>
+                        </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick-master/slick/slick.min.js"></script>
+        <script type="text/javascript" src="js/js.js"></script>
 </body>
+
 </html>
