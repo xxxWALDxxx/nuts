@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    position:fixed;
+    z-index:10;
+    background-color: #fff;
+    width: 100%;
+}
+
+.header-nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1170px;
+    margin: 0px auto 0px auto;
+}
+
+.header-nav-block {
+    padding: 24px 0px 21px 0px;
+}
+
+.header-nav-block>a {
+    color: #282828;
+}
+
+.header-nav-block>a:hover {
+    padding-bottom: 7px;
+    border-bottom: 1px solid #96af2c;
+}
+
+.header-nav-contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-nav-contacts-number {
+    display: flex;
+    padding: 13px 0px 0px 0px;
+}
+
+.header-nav-contacts-telephone {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-nav-contacts-telephone-lang>p {
+    margin: 0;
+}
+
+.header-nav-contacts-telephone-lang {
+    display: flex;
+    align-items: center;
+}
+.header-nav-contacts-number>img{
+    width: 10px;
+    height: 10px;
+}
+
+.header-nav-contacts-telephone-lang>img {
+    width: 19px;
+    height: 12px;
+    margin: 0px 8px 0px 5px;
+}
+
+.hide-language {
+    display: none;
+}
+
+.opt1 {
+    background: url(../img/russian.png);
+}
+
+.language {
+    margin: 0px auto;
+    width: 1170px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.language-block {
+    width: 90px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.language-block-items {
+    display: flex;
+}
+
+.language-block-items>p {
+    margin: 0;
+    padding-right: 4px;
+}
+.background-main{
+  padding-top:59px;
+  background: url(../img/production-background-main-img.png)no-repeat;  
+  width: 100%;
+  height: 1271px;
+}
+.main{
+  width: 1170px;
+  display:flex;
+  flex-direction:column;
+}
+.footer-background {
+    width: 100%;
+    background-color: #282828;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 1170px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-info {
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+.footer-info-text {
+    padding-left: 4px;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.tab-none{
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+.header-nav-contacts-number>img{
+    width: 10px;
+    height: 10px;
+}
+.menu-link{
+  z-index:9;
+  display:block;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius:50%;
+  position:fixed;
+  box-shadow: 1px 1px 10px rgba(0,0,0,.4);
+  top:5px;
+  z-index:11;
+}
+.menu-link span,.menu-link span:before,.menu-link span:after{
+  display:block;
+  height: 2px;
+  width: 18px;
+  background-color:#333;
+  position:absolute;
+  right: 50%;
+  margin-right: -9px;
+  top: 50%;
+  margin-top: -1px;
+  z-index:11;
+}
+.menu-link span:before{
+  transition: all 0.2s;
+  content:'';
+  margin-top: -6px;
+}
+.menu-link span:after{
+  transition: all 0.2s;
+  content:'';
+  margin-top: 4px;
+}
+.menu-link-active span{
+  background: transparent;
+}
+.menu-link-active span:before{
+  transform: rotate(135deg);
+  margin-top: 0;
+}
+.menu-link-active span:after{
+  transform: rotate(-135deg);
+  margin-top: 0;
+}
+.menu{
+  background:purple;
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  z-index:10;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  right: -5000px;
+  transition: all 2s;
+  margin-top: -30px;
+}
+.menu ul{
+  list-style:none;
+  padding: 0;
+  margin: 0;
+  text-align:center;
+}
+.menu ul li{
+  width: 100vw;
+}
+.menu a{
+  display:block;
+  width: 100%;
+  line-height: 2;
+  font-weight: 100;
+  letter-spacing: 8px;
+  color:#fff;
+  text-decoration:none;
+  transition: all 0.2s;
+}
+.menu a:hover{
+  text-decoration:none;
+  background-color: rgba(255,255,255,.4);
+}
+.menu-active{
+  right:0px;
+}
+.burger{
+    display:none;
+}
+.tab-item{
+    display:flex;
+}

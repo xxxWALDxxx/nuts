@@ -12,18 +12,6 @@ $(document).ready(function(){
   });
 });
 $(document).ready(function(){
- $("#social").select2({
-  templateResult: formatOptions
- });
-});
-function formatOptions (state) {
-  if (!state.id) { return state.text; }
-   var $state = $(
-   '<span ><img sytle="display: inline-block;" src="../img/' + state.element.value.toLowerCase() + '.png" /> ' + state.text + '</span>'
-  );
-  return $state;
-}
-$(document).ready(function(){
   var link=$('.menu-link');
   var link_active=$('.menu-link-active');
   var menu=$('.menu');
