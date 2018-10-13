@@ -310,3 +310,35 @@ a {
 .tab-item{
     display:flex;
 }
+@media(max-width: 1024px){
+    .about_company{
+        width: 100%;
+    }
+    .about_company_text_main{
+        padding-left:30px;
+        font-size:14px;
+    }
+    .tab-none{
+        display:none;
+    }
+    .action{
+        padding-left: 30px;
+        margin-top: 30px;
+    }
+    .burger{
+        display:block;
+    }
+    .central{
+        width: 100%;
+    }
+    .header{
+        background: #fff;
+        z-index: 5;
+        width: 100%;
+        position:fixed;
+    }
+}
+
+@media(max-width: 768px){
+
+}
