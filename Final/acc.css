@@ -67,6 +67,12 @@ button.accordionn:hover, button.accordionn.is-open {
     justify-content: flex-end;  
     margin:5px 0px;
 }
+.accordion-content>div:first-child{
+    margin-top:10px;
+}
+.accordion-content>div:last-child{
+    margin-bottom:10px;
+}
 .accordion-content>div>a{
   color: #282828;
   font-family: "Roboto Condensed";

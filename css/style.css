@@ -49,7 +49,9 @@ a {
 
 .header-nav-contacts-number {
     display: flex;
-    padding: 13px 0px 0px 0px;
+    font-size: 14px;
+    align-items:center;
+
 }
 
 .header-nav-contacts-telephone {
