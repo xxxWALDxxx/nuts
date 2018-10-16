@@ -167,6 +167,10 @@ a {
 .r-arrow,.l-arrow{
     background:none;
     border:none;
+    cursor:pointer;
+}
+.r-arrow:active,.l-arrow:active,.r-arrow:focus,.l-arrow:focus{
+    outline: none;
 }
 .main-content-text{
     background-color: #637a02;

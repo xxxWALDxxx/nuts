@@ -155,19 +155,30 @@ a {
 }
 
 .item {
-    background: url(../img/main-img.png) no-repeat;
+    background: url(../img/main-home-1.jpg) no-repeat;
     height: 800px;
     width: 100%;
     color: #fff;
     text-align: center;
-    height: 800px;
-    width: 100%;
-}
-.item {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.item-two {
+    background:url(../img/main-home-2.jpg) no-repeat;
+    height: 800px;
+    width: 100%;
+}
+.item-three {
+    background:url(../img/main-home-3.jpg) no-repeat;
+    height: 800px;
+    width: 100%;
+}
+.item-four {
+    background:url(../img/main-home-4.jpg) no-repeat;
+    height: 800px;
+    width: 100%;
 }
 
 .background-main-logo {
@@ -218,10 +229,13 @@ a {
     z-index: 1;
 }
 
-.l-arrow,
-.r-arrow {
-    border: none;
-    background: none;
+.r-arrow,.l-arrow{
+    background:none;
+    border:none;
+    cursor:pointer;
+}
+.r-arrow:active,.l-arrow:active,.r-arrow:focus,.l-arrow:focus{
+    outline: none;
 }
 
 .central {
@@ -258,11 +272,14 @@ a {
 .about_company {
     width: 1170px;
     display: flex;
-
+    height: 100%;
 }
 
 .about_company-text {
+    display: flex;
     width: 50%;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .about_company_text_main {
@@ -281,6 +298,7 @@ a {
 }
 
 .button {
+    background: #ebce73;
     width: 170px;
     height: 50px;
     border-radius: 5px;

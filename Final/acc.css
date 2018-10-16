@@ -1,0 +1,78 @@
+.div-containterr{
+  position:relative;
+  height: 20px;
+  width: 114px;
+}
+.containerr {
+  position:absolute;
+  width: 114px;
+}
+
+button.accordionn {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  text-align: left;
+  font-size: 18px;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+
+button.accordionn:after {
+  content: '\f107';
+  font-family: "fontawesome";
+  font-size: 14px;
+  float: right;
+ transition: 0.3s;
+
+}
+
+button.accordionn.is-open:after {
+ transform: rotate(180deg);
+  
+}
+
+/*.panel-heading a::after {
+ content: "\f107";
+ font-family: "FontAwesome";
+ position: absolute;
+ right: 15px;
+ transition: 0.3s;
+}*/
+/*.panel-heading.in a::after {
+ transform: rotate(180deg);
+}*/
+
+button.accordionn:hover, button.accordionn.is-open {
+  background-color: #fff;
+}
+
+.accordion-content {
+  border-top:5px solid #96af2c;
+  background-color: white;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  padding: 0 5px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+  height: 174px;
+}
+.accordion-content>div{
+    display:flex;
+    justify-content: flex-end;  
+    margin:5px 0px;
+}
+.accordion-content>div>a{
+  color: #282828;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-weight: 300;
+}
+.accordion-content>div>a>img{
+     margin-left: 5px;   
+}
