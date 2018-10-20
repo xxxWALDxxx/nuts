@@ -12,6 +12,19 @@ $(document).ready(function(){
   });
 });
 $(document).ready(function(){
+  $('.slider-text').slick({  
+  autoplay: true,
+  autoplaySpeed: 1999,
+  infinite: true,
+  dots: false,
+  arrows: false,
+  speed: 500,
+  fade: true,
+  useCSS: true,
+  cssEase: 'linear'
+  });
+});
+$(document).ready(function(){
   var link=$('.menu-link');
   var link_active=$('.menu-link-active');
   var menu=$('.menu');

@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
@@ -11,6 +12,8 @@ a {
 }
 
 .header {
+    
+    font-family: 'Roboto Condensed', sans-serif;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -45,33 +48,16 @@ a {
 .header-nav-contacts {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;   
 }
 
 .header-nav-contacts-number {
     display: flex;
-    font-size: 14px;
+    font-size: 13px;
     align-items:center;
 
-}
-
-.header-nav-contacts-telephone {
-    display: flex;
-    justify-content: space-around;
-}
-
-.header-nav-contacts-telephone-lang>p {
-    margin: 0;
-}
-
-.header-nav-contacts-telephone-lang {
-    display: flex;
-    align-items: center;
-}
-
-.header-nav-contacts-telephone-lang>img {
-    width: 19px;
-    height: 12px;
-    margin: 0px 8px 0px 5px;
 }
 
 .hide-language {
@@ -134,7 +120,6 @@ a {
 .main-text {
     /* Style for "Качество н" */
     color: #ffffff;
-    font-family: "Roboto Condensed";
     font-size: 20px;
     font-weight: 400;
     background: url(../img/main-oli.png) no-repeat;
@@ -240,27 +225,18 @@ a {
     outline: none;
 }
 
-.central {
-    width: 1170px;
-    display: flex;
-    align-items: center;
+.background-slider-text{
+    width: 100%;
+    display:flex;
     justify-content: center;
-    margin: 40px 0;
 }
-
-.central-text {
-    background: url(../img/central-img.png);
-    width: 626px;
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-family: "Roboto Condensed";
-    font-size: 24px;
-    font-weight: 300;
-    /* Text style for "Lorem ipsu" */
-    letter-spacing: 0.48px;
+.slider-text{
+    width: 100%;
+    padding:30px 0px;
+}
+.slider-text-block{
+    font-size: 32px;
+    text-align:center;
 }
 
 .background-about_company {
@@ -286,7 +262,6 @@ a {
 
 .about_company_text_main {
     color: #ffffff;
-    font-family: "Roboto Condensed";
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
@@ -305,7 +280,6 @@ a {
     height: 50px;
     border-radius: 5px;
     color: #282828;
-    font-family: "Roboto Condensed";
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -317,7 +291,6 @@ a {
 
 .button-o {
     color: #ffffff;
-    font-family: "Roboto Condensed";
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -351,7 +324,6 @@ a {
 .footer-info-text {
     padding-left: 4px;
     color: #ffffff;
-    font-family: "Roboto Condensed";
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;

@@ -52,6 +52,7 @@ button.accordionn:hover, button.accordionn.is-open {
 }
 
 .accordion-content {
+  margin-top: 13px;
   border-top:5px solid #96af2c;
   background-color: white;
   border-left: 1px solid whitesmoke;
