@@ -8,9 +8,11 @@
     <link rel="stylesheet" type="text/css" href="slick-master/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick-master/slick/slick-theme.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-
     <link rel="stylesheet" href="Final/acc.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacts.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=<ваш API-ключ>&lang=ru_RU" type="text/javascript">
+    </script>
+    <script src="js/contacts.js"></script>
     <!-- ВСЕГДА ПОСЛЕ ВСЕЙ ХУЙНИ ПОДКЛЮЧАТЬ СВОИ СТИЛИ, ДЕБИЛ ЕБАНЫЙ -->
 </head>
 
@@ -79,18 +81,57 @@
     </header>
 
     <div class="background-main">
-        <div class="main">
             <div class="main">
-                <div class="main-contacts"></div>
+                <div class="main-contacts">CONTACTS</div>
                 <!-- /.main-contacts -->
                 <div class="main-block">
-                    <div class="main-block-text"></div>
+                    <div class="main-block-text">
+                      <br>
+                      <div class="main-block-text-title">Factory and main office</div>
+                      <div class="main-block-text-subtitle">Adres: Göyəm k., Zaqatala, Azərbaycan</div>
+                      <div class="main-block-text-subtitle">tel: +994 2422 40187</div>
+                      <div class="main-block-text-subtitle bottom-border">info@kaslarnut.com</div>
+                      <div class="main-block-text-title">European representative and sales office:</div>
+                      <br>
+                      <br>
+                      <div class="main-block-text-title">Poland</div>
+                      <div class="main-block-text-subtitle">Adres: Kaslar Polska Sp.z.o.o.</div>
+                      <div class="main-block-text-subtitle">UI Jana Kazimierza 15/43</div>
+                      <div class="main-block-text-subtitle">tel: +994 2422 40187</div>
+                      <div class="main-block-text-subtitle">poland@kaslarnut.com</div>
+                      <br>
+                      <br>
+                      <div class="main-block-text-title">France</div>
+                      <div class="main-block-text-subtitle">tel: +33 628 23-53-14</div>
+                      <div class="main-block-text-subtitle bottom-border">france@kaslarnut.com</div>
+                      <div class="main-block-text-title">Other representatives:</div>
+                      <br>
+                      <br>
+                      <div class="main-block-text-title">Turkey</div>
+                      <div class="main-block-text-subtitle">tel: +90 535 6-444-554</div>
+                      <div class="main-block-text-subtitle">turkey@kaslarnut.com</div>
+                      <br>
+                      <br>
+                      <div class="main-block-text-title">Ukraine</div>
+                      <div class="main-block-text-subtitle">tel: +380 67 251-51-47</div>
+                      <div class="main-block-text-subtitle">ukraine@kaslarnut.comcvv</div>
+                    </div>
                     <!-- /.main-block-text -->
                     <div class="main-block-information">
                         <div class="main-block-information-map">
-                            <div class="main-block-information-map-one"></div>
+                            <div class="main-block-information-map-one">
+                              <p>
+                                Azərbaycan
+                              </p>
+                              <div id="map" class="map"></div>
+                            </div>
                             <!-- /.main-block-information-map-one -->
-                            <div class="main-block-information-map-two"></div>
+                            <div class="main-block-information-map-two">
+                              <p>
+                                Poland
+                              </p>
+                              <div id="map2" class="map2"></div>
+                            </div>
                             <!-- /.main-block-information-map-two -->
                         </div>
                         <!-- /.main-block-information-map -->
@@ -105,13 +146,20 @@
                                   <input type="text"placeholder="E-mail" class="main-block-information-contact-data-user-input">
                                 </div>
                                 <!-- /.main-block-information-contact-data-user -->
-                                <div class="main-block-information-contact-data-messages"></div>
+                                <div class="main-block-information-contact-data-messages">
+                                  <textarea name="  " disabled="disabled" placeholder="Message"id="" cols="30" rows="10"></textarea>
+                                </div>
                                 <!-- /.main-block-information-contact-data-messages -->
                             </div>
                             <!-- /.main-block-information-contact-data -->
                             <div class="main-block-information-contact-action">
-                              <div class="main-block-information-contact-action-robot">I'm not a robot</div>
-                              <div class="main-block-information-contact-action-button">Send</div>
+                              <div class="main-block-information-contact-action-col-1">
+                                <div class="main-block-information-contact-action-robot">I'm not a robot
+                                </div>
+                              </div>
+                              <div class="main-block-information-contact-action-col-2">
+                                <div class="main-block-information-contact-action-button"><button>Send</button></div>
+                              </div>
                             </div>
                         </div>
                         <!-- /.main-block-information-contact -->
@@ -121,8 +169,6 @@
                 <!-- /.main-block -->
             </div>
             <!-- /.main -->
-        </div>
-        <!-- /.main -->
     </div>
     <!-- /.background-main -->
 

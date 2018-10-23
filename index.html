@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="slick-master/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick-master/slick/slick-theme.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="Final/acc.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- ВСЕГДА ПОСЛЕ ВСЕЙ ХУЙНИ ПОДКЛЮЧАТЬ СВОИ СТИЛИ, ДЕБИЛ ЕБАНЫЙ -->
@@ -80,18 +80,18 @@
     <div class="slider">
         <div class="item">
             <div class="item-column">
-                <div class="background-main-logo">
+                <div class="background-main-logo wow bounceInLeft" data-wow-delay="1.0s">
                     <img src="img/main-logo.png" alt="">
 				</div>
-                    <div class="main-text">
-                        Quality is not a coincidence!
-                    </div>
+                <div class="main-text wow bounceInRight" data-wow-delay="5.0s">
+                    Quality is not a coincidence!
                 </div>
             </div>
-            <div class="item-two"></div>
-            <div class="item-three"></div>
-            <div class="item-four"></div>
         </div>
+        <div class="item-two"></div>
+        <div class="item-three"></div>
+        <div class="item-four"></div>
+    </div>
         <div class="background-about_company">
                 <div class="slider-text">
                     <div class="slider-text-block">Welcome to Kaslar, Azerbaijan hazelnut production company</div>
@@ -134,6 +134,10 @@
                                 </div>
                         </div>
         </footer>
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
         <script src="Final/accord.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

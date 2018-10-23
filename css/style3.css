@@ -76,37 +76,7 @@ a {
     margin: 0px 8px 0px 5px;
 }
 
-.hide-language {
-    display: none;
-}
 
-.opt1 {
-    background: url(../img/russian.png);
-}
-
-.language {
-    margin: 0px auto;
-    width: 1170px;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.language-block {
-    width: 90px;
-    height: 120px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-}
-
-.language-block-items {
-    display: flex;
-}
-
-.language-block-items>p {
-    margin: 0;
-    padding-right: 4px;
-}
 .background-main{
   padding-top:59px;
   background: url(../img/production-background-main-img.png)no-repeat;  
